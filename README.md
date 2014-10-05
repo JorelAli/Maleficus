@@ -14,9 +14,27 @@ No idea :P
 What features does it have?
 ---------------------------
 Maleficus is both complex, but was aimed to be easy to use. Basically, there are 3 main features to Maleficus:
-[1] Elements
-[2] Powers
-[3] Anima and levelling
+# Elements
+# Powers
+# Anima and levelling
 
-[Elements]
-In Maleficus, there are some 'main' elements which are Water, Fire, Earth, Air, Shock (electric), Light, Dark and Void.
+=== [Elements]
+In Maleficus, there are 8 elements:
+* Water - Power over water and ice
+* Fire - Power over fire and lava
+* Earth - Power over the ground/stone etc.
+* Air - Power over air
+* Shock (Electric) - Power over electricity (lightning)
+* Light - A 'pure' element which focuses on defence
+* Dark - An 'evil' element which focuses on power
+* Void - A discrete element with unimaginable power
+Following these elements, there are also subElements:
+* Beserker - Extra damage to attacks (short range)
+* Archer - Extra damage to attacks (long range)
+* Explosions - Causes explosions with attacks
+* Healer - Heals yourself with attacks
+* Speed - Uses less anima, but attacks are weaker
+* Strength - Attacks are stronger, but uses more anima
+* AntiAnima - Only uses 50% anima for attack and uses up entire antiAnima energy.
+
+
