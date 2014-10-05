@@ -1,0 +1,24 @@
+//	public String F_LAVACANNON = "F3LavaCannon"; //same as water cannon, but with lava. Turn off physics.
+
+//	public String W_FREEZE = "W2Freeze"; //temporary freeze enemies & players
+//	public String W_HEALINGWATER = "W3HealingWater"; //heals players, and can heal other players (if possible?)
+//	public String W_FREEZECANNON = "W4FreezeCannon"; //iteration of ice blocks fired in current direction. With the fire and water cannons, make it more gradual and do damage on hit, then delete the block.
+//	public String W_TSUNAMI = "W5Tsunami"; //tsunami
+
+//	public String E_PASSIVE = "EarthPassive"; //don't receive fall damage
+//	public String E_EARTHGRAB = "EarthGrab"; //be able to 'pick up' blocks in the air. - see project notes
+//	public String E_EARTHBLAST = "EarthBlast"; //block smash - fake explosion, blocks fly everywhere :)
+//	public String E_EARTHQUAKE = "Earthquake"; //earthquake - like tornado
+//	public String A_PASSIVE = "AirPassive"; //moves faster (speed)
+
+//	public String A_AIRBLAST = "AirBlast"; //Sends enemy FLYING!!!!!
+//	public String A_SOAR = "Fly"; //Flying like in Creative
+//	public String A_TORNADO = "Tornado"; //tornado - pulls stuff from ground and throws into air
+
+//	public String S_Passive = "ShockPassive"; //deals damage to anyone who touches player
+
+////MiscTypes:
+//	
+//	//EXType:
+//	public String X_Reflect = "Reflect"; //damage dealed to player is 0, all damage is returned back to attacker
+}

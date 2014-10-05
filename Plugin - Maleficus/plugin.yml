@@ -1,0 +1,17 @@
+name: Maleficus
+main: io.github.Skepter.Maleficus
+version: 1.0
+description: Info goes here
+author: Skepter
+
+commands:
+  anima:
+    description: Displays anima
+    aliases: [a]
+    usage: Use <command>
+  maleficus:
+    description: Main plugin command
+    usage: Use <command>
+  power:
+    description: Main power command
+    usage: Use <command>
