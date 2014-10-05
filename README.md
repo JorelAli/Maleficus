@@ -36,7 +36,8 @@ Following these elements, there are also subElements:
 * Healer - Heals yourself with attacks
 * Speed - Uses less anima, but attacks are weaker
 * Strength - Attacks are stronger, but uses more anima
-* AntiAnima - Only uses 50% anima for attack and uses up entire antiAnima energy.
+* Ender - Teleports you randomly when you use a power
+* AntiAnima - Only uses 50% anima for attack and uses up entire antiAnima energy
 
 [Powers]
 --------
