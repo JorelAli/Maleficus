@@ -78,7 +78,25 @@ public class Maleficus extends JavaPlugin {
 	 * used by that player before), it will have 0/0 stats. Otherwise, it would
 	 * load the old stats. If a player's element is NONE, they can use no
 	 * powers. People from other powers can use those of the other power, except
-	 * it requires 3 times more anima to execute.
+	 * it requires 3 times more anima to execute
+	 * 
+	 * The player saving system:
+	 * Anima: <ANIMA>
+	 * subanima + sublevel etc.
+	 * Level: <INT_LEVEL>
+	 * CurrentElement: <ELEMENT>
+	 * Element:
+	 *    Water:
+	 *       <POWERNAME>: true
+	 *    Fire:
+	 *       <POWERNAME>: false
+	 * etc.
+	 * 
+	 * Shows the current element they are.
+	 * Shows what powers they have unlocked.
+	 * 
+	 * 
+	 * 
 	 * 
 	 * /anima - see how much energy you have
 	 * 
