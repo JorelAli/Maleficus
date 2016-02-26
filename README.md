@@ -29,6 +29,7 @@ In Maleficus, there are 8 elements:
 * Light - A 'pure' element which focuses on defence
 * Dark - An 'evil' element which focuses on power
 * Void - A discrete element with unimaginable power
+
 Following these elements, there are also subElements:
 * Beserker - Extra damage to attacks (short range)
 * Archer - Extra damage to attacks (long range)
