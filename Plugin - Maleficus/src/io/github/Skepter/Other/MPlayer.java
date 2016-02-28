@@ -1,7 +1,4 @@
-package io.github.Skepter.Other;
-
-import io.github.Skepter.Maleficus;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.other;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +8,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.Maleficus;
+import io.github.skepter.powers.PowerType.Element;
 
 public class MPlayer{
 

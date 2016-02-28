@@ -1,9 +1,12 @@
-package io.github.Skepter.Tools;
+package io.github.skepter.tools;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
+import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.util.BlockIterator;
 
 public class Utils {
 
@@ -47,6 +50,25 @@ public class Utils {
 	}
 	
 	public static int EAnima(int getAnima) {
-		return( int) Math.round(getAnima * 0.9);
+		return(int) Math.round(getAnima * 0.9);
+	}
+	
+	/** Gets the target block. Sets range to 256. */
+	public static Block getTargetBlock(final Player player) {
+		return getTargetBlock(player, 256);
+	}
+	
+	/** Gets the target block. No longer messing around with hashsets and who
+	 * else knows what nonsense. */
+	private static Block getTargetBlock(final Player player, final int range) {
+		final BlockIterator itr = new BlockIterator(player, range);
+		Block target = itr.next();
+		while (itr.hasNext()) {
+			target = itr.next();
+			if (target.getType().equals(Material.AIR))
+				continue;
+			break;
+		}
+		return target;
 	}
 }

@@ -1,9 +1,10 @@
-package io.github.Skepter.Powers.Shock;
-
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.powers.shock;
 
 import org.bukkit.entity.Player;
+
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
+import io.github.skepter.tools.Utils;
 
 public class Bolt implements Power{
 
@@ -27,10 +28,9 @@ public class Bolt implements Power{
 		return 0;
 	}
 
-	@SuppressWarnings("deprecation")
 	@Override
 	public void run(Player player, String params) {
-		player.getWorld().strikeLightning(player.getTargetBlock(null, 256).getLocation());
+		player.getWorld().strikeLightning(Utils.getTargetBlock(player).getLocation());
 	}
 
 }

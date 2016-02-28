@@ -1,4 +1,4 @@
-package io.github.Skepter.Powers;
+package io.github.skepter.powers;
 
 import org.bukkit.entity.Player;
 

@@ -1,35 +1,4 @@
-package io.github.Skepter;
-
-import io.github.Skepter.Other.MPlayer;
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
-import io.github.Skepter.Powers.Air.Collect;
-import io.github.Skepter.Powers.Air.Soar;
-import io.github.Skepter.Powers.Dark.Annihilate;
-import io.github.Skepter.Powers.Dark.Blinder;
-import io.github.Skepter.Powers.Dark.VanishingWorld;
-import io.github.Skepter.Powers.Fire.BurningWorld;
-import io.github.Skepter.Powers.Fire.Fireball;
-import io.github.Skepter.Powers.Fire.LavaCannon;
-import io.github.Skepter.Powers.Fire.Meteor;
-import io.github.Skepter.Powers.Light.AntiPenetrate;
-import io.github.Skepter.Powers.Light.Burst;
-import io.github.Skepter.Powers.Shock.Bolt;
-import io.github.Skepter.Powers.Shock.Paralyse;
-import io.github.Skepter.Powers.Shock.Teravolt;
-import io.github.Skepter.Powers.Void.Disarm;
-import io.github.Skepter.Powers.Void.Eradicate;
-import io.github.Skepter.Powers.Water.FreezeCannon;
-import io.github.Skepter.SubElements.AntiAnima;
-import io.github.Skepter.SubElements.Beserker;
-import io.github.Skepter.SubElements.Ender;
-import io.github.Skepter.SubElements.Healer;
-import io.github.Skepter.SubElements.SubElements;
-import io.github.Skepter.commands.AnimaCommand;
-import io.github.Skepter.commands.MaleficusCommand;
-import io.github.Skepter.commands.PowerCommand;
-import io.github.Skepter.listeners.PassivesListeners;
-import io.github.Skepter.listeners.PlayerListener;
+package io.github.skepter;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -42,6 +11,37 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import io.github.skepter.commands.AnimaCommand;
+import io.github.skepter.commands.MaleficusCommand;
+import io.github.skepter.commands.PowerCommand;
+import io.github.skepter.listeners.PassivesListeners;
+import io.github.skepter.listeners.PlayerListener;
+import io.github.skepter.other.MPlayer;
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
+import io.github.skepter.powers.air.Collect;
+import io.github.skepter.powers.air.Soar;
+import io.github.skepter.powers.dark.Annihilate;
+import io.github.skepter.powers.dark.Blinder;
+import io.github.skepter.powers.dark.VanishingWorld;
+import io.github.skepter.powers.fire.BurningWorld;
+import io.github.skepter.powers.fire.Fireball;
+import io.github.skepter.powers.fire.LavaCannon;
+import io.github.skepter.powers.fire.Meteor;
+import io.github.skepter.powers.light.AntiPenetrate;
+import io.github.skepter.powers.light.Burst;
+import io.github.skepter.powers.shock.Bolt;
+import io.github.skepter.powers.shock.Paralyse;
+import io.github.skepter.powers.shock.Teravolt;
+import io.github.skepter.powers.thevoid.Disarm;
+import io.github.skepter.powers.thevoid.Eradicate;
+import io.github.skepter.powers.water.FreezeCannon;
+import io.github.skepter.subelements.AntiAnima;
+import io.github.skepter.subelements.Beserker;
+import io.github.skepter.subelements.Ender;
+import io.github.skepter.subelements.Healer;
+import io.github.skepter.subelements.SubElements;
 
 public class Maleficus extends JavaPlugin {
 

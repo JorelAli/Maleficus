@@ -1,11 +1,11 @@
-package io.github.Skepter.Powers.Fire;
-
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.powers.fire;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
+
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType;
+import io.github.skepter.powers.PowerType.Element;
 
 public class Fireball implements Power, Listener {
 

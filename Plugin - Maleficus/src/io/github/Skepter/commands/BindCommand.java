@@ -1,11 +1,11 @@
-package io.github.Skepter.commands;
-
-import io.github.Skepter.Tools.Utils;
+package io.github.skepter.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.tools.Utils;
 
 public class BindCommand implements CommandExecutor {
 

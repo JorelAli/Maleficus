@@ -1,7 +1,4 @@
-package io.github.Skepter.Powers.Fire;
-
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.powers.fire;
 
 import org.bukkit.World;
 import org.bukkit.block.Block;
@@ -10,6 +7,9 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.BlockIterator;
 import org.bukkit.util.Vector;
+
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
 
 public class Meteor implements Power{
 

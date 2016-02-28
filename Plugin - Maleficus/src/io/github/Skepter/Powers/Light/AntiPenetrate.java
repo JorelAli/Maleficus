@@ -1,11 +1,11 @@
-package io.github.Skepter.Powers.Light;
-
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.powers.light;
 
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
 
 public class AntiPenetrate implements Power{
 

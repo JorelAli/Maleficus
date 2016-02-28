@@ -1,9 +1,4 @@
-package io.github.Skepter.Powers.Dark;
-
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
-import io.github.Skepter.Tools.ParticleEffect;
-import io.github.Skepter.Tools.Sphere;
+package io.github.skepter.powers.dark;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,6 +8,11 @@ import java.util.Random;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
+import io.github.skepter.tools.ParticleEffect;
+import io.github.skepter.tools.Sphere;
 
 public class VanishingWorld implements Power {
 

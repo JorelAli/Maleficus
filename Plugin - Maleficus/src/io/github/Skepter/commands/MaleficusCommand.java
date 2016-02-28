@@ -1,13 +1,13 @@
-package io.github.Skepter.commands;
-
-import io.github.Skepter.Maleficus;
-import io.github.Skepter.Other.MPlayer;
-import io.github.Skepter.Tools.Utils;
+package io.github.skepter.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.Maleficus;
+import io.github.skepter.other.MPlayer;
+import io.github.skepter.tools.Utils;
 
 public class MaleficusCommand implements CommandExecutor {
 

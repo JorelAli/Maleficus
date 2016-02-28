@@ -1,9 +1,4 @@
-package io.github.Skepter.Powers.Shock;
-
-import io.github.Skepter.Maleficus;
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
-import io.github.Skepter.Tools.Sphere;
+package io.github.skepter.powers.shock;
 
 import java.util.List;
 
@@ -11,6 +6,11 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.Maleficus;
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
+import io.github.skepter.tools.Sphere;
 
 public class Teravolt implements Power{
 

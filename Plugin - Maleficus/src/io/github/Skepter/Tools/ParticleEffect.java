@@ -1,8 +1,4 @@
-package io.github.Skepter.Tools;
-
-import io.github.Skepter.Tools.ReflectionHandler.PackageType;
-import io.github.Skepter.Tools.ReflectionHandler.PacketType;
-import io.github.Skepter.Tools.ReflectionHandler.SubPackageType;
+package io.github.skepter.tools;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -18,6 +14,10 @@ import java.util.Map.Entry;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.tools.ReflectionHandler.PackageType;
+import io.github.skepter.tools.ReflectionHandler.PacketType;
+import io.github.skepter.tools.ReflectionHandler.SubPackageType;
  
 /**
  * ParticleEffect Library v1.4

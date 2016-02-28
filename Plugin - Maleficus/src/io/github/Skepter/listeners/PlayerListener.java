@@ -1,7 +1,4 @@
-package io.github.Skepter.listeners;
-
-import io.github.Skepter.Maleficus;
-import io.github.Skepter.Other.MPlayer;
+package io.github.skepter.listeners;
 
 import java.io.File;
 import java.util.HashMap;
@@ -16,6 +13,9 @@ import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
+
+import io.github.skepter.Maleficus;
+import io.github.skepter.other.MPlayer;
 
 public class PlayerListener implements Listener {
 

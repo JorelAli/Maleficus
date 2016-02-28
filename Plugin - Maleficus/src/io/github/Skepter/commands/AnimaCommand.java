@@ -1,7 +1,4 @@
-package io.github.Skepter.commands;
-
-import io.github.Skepter.Other.MPlayer;
-import io.github.Skepter.Tools.Utils;
+package io.github.skepter.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -9,6 +6,9 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import io.github.skepter.other.MPlayer;
+import io.github.skepter.tools.Utils;
 
 public class AnimaCommand implements CommandExecutor {
 

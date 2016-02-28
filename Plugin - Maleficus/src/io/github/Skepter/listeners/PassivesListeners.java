@@ -1,7 +1,4 @@
-package io.github.Skepter.listeners;
-
-import io.github.Skepter.Other.MPlayer;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.listeners;
 
 import java.util.Random;
 
@@ -12,6 +9,9 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
+
+import io.github.skepter.other.MPlayer;
+import io.github.skepter.powers.PowerType.Element;
 
 public class PassivesListeners implements Listener {
 

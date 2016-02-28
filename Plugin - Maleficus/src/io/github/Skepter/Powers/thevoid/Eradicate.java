@@ -1,16 +1,17 @@
-package io.github.Skepter.Powers.Void;
-
-import io.github.Skepter.Maleficus;
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
-import io.github.Skepter.Tools.Line;
-import io.github.Skepter.Tools.ParticleEffect;
+package io.github.skepter.powers.thevoid;
 
 import java.util.Iterator;
 
 import org.bukkit.Bukkit;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.Maleficus;
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
+import io.github.skepter.tools.Line;
+import io.github.skepter.tools.ParticleEffect;
+import io.github.skepter.tools.Utils;
 
 public class Eradicate implements Power{
 
@@ -34,13 +35,12 @@ public class Eradicate implements Power{
 		return 0;
 	}
 
-	@SuppressWarnings("deprecation")
 	@Override
 	public void run(final Player player, String params) {
 		//adds anima?
 		//does extra damage to Void attacks?
 		//IDK!
-		Line line = new Line(player.getLocation(), player.getTargetBlock(null, 256).getLocation());
+		Line line = new Line(player.getLocation(), Utils.getTargetBlock(player).getLocation());
 		final Iterator<Block> blockIterator = line.iterator();
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(Maleficus.getInstance(), new Runnable() {
 

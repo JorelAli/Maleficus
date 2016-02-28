@@ -1,13 +1,13 @@
-package io.github.Skepter.SubElements;
-
-import io.github.Skepter.Other.MPlayer;
-import io.github.Skepter.Tools.Sphere;
+package io.github.skepter.subelements;
 
 import java.util.List;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.other.MPlayer;
+import io.github.skepter.tools.Sphere;
 
 public class Beserker implements SubElements{
 

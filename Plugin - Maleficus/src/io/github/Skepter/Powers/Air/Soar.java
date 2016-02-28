@@ -1,8 +1,4 @@
-package io.github.Skepter.Powers.Air;
-
-import io.github.Skepter.Maleficus;
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
+package io.github.skepter.powers.air;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,6 +6,10 @@ import java.util.Map;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.Maleficus;
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
 
 public class Soar implements Power{
 	

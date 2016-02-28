@@ -1,10 +1,10 @@
-package io.github.Skepter.SubElements;
-
-import io.github.Skepter.Other.MPlayer;
+package io.github.skepter.subelements;
 
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+
+import io.github.skepter.other.MPlayer;
 
 public class Explosions implements SubElements{
 

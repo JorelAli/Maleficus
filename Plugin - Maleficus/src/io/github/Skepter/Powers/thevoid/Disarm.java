@@ -1,13 +1,13 @@
-package io.github.Skepter.Powers.Void;
-
-import io.github.Skepter.Powers.Power;
-import io.github.Skepter.Powers.PowerType.Element;
-import io.github.Skepter.Tools.Sphere;
+package io.github.skepter.powers.thevoid;
 
 import java.util.List;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
+
+import io.github.skepter.powers.Power;
+import io.github.skepter.powers.PowerType.Element;
+import io.github.skepter.tools.Sphere;
 
 public class Disarm implements Power{
 

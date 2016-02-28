@@ -1,4 +1,4 @@
-package io.github.Skepter.Tools;
+package io.github.skepter.tools;
 import java.util.Iterator;
 
 import org.bukkit.Bukkit;

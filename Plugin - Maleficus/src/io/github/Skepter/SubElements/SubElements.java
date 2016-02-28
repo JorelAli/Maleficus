@@ -1,4 +1,4 @@
-package io.github.Skepter.SubElements;
+package io.github.skepter.subelements;
 
 import org.bukkit.entity.Player;
 

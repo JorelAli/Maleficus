@@ -1,8 +1,8 @@
-package io.github.Skepter.SubElements;
-
-import io.github.Skepter.Other.MPlayer;
+package io.github.skepter.subelements;
 
 import org.bukkit.entity.Player;
+
+import io.github.skepter.other.MPlayer;
 
 public class AntiAnima implements SubElements{
 
